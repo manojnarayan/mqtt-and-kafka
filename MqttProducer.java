@@ -5,7 +5,7 @@ import org.eclipse.paho.client.mqttv3.*;
 public class MqttProducer {
  
     public static void main(String[] args) {
-        String mqttBroker = "tcp://10.86.143.44:1883";
+        String mqttBroker = "tcp://localhost:1883"; //Add your system ipaddress rather tha localhost
         String mqttTopic = "mqtt/topic";
         String mqttMessage = "Mqtt Data route to kafka";
  
