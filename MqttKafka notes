@@ -1,6 +1,6 @@
 MQTT -  Message Queue Telemetry Transport Protocol
 --------------------------------------------------------
-
+MQTT DATA ROUTE TO KAFKA SERVER
 MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe network protocol designed for efficient communication in constrained environments. 
 
 MQTT: Pub/Sub Decoupling Feature
