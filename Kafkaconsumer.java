@@ -13,7 +13,7 @@ import java.util.Properties;
 public class Kafkaconsumer {
  
     public static void main(String[] args) {
-        String kafkaBroker = "10.102.151.79:9092";
+        String kafkaBroker = "localhost:9092"; //To run add your ipaddress
         String kafkaTopic = "kafka-topic1";
  
         // Set up Kafka consumer properties
