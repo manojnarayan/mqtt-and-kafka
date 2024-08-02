@@ -14,8 +14,8 @@ import java.util.Properties;
 public class MqtttoKafka {
  
     public static void main(String[] args) {
-        String mqttBroker = "tcp://10.86.143.44:1883";
-        String kafkaBroker = "10.102.151.79:9092";
+        String mqttBroker = "tcp://localhost:1883"; //add your system ipaddress that mqttbroker running 
+        String kafkaBroker = "localhost:9092"; //add your server ip address as kafka is running
         String mqttTopic = "mqtt/topic";
         String kafkaTopic = "kafka-topic1";
  
